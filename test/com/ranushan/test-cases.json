@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "case1.txt",
+    "content": ["Back to the Future 1", "Back to the Future 2", "Back to the Future 3"],
+    "expected": "Amount : 36,00 €"
+  },
+  {
+    "filename": "case2.txt",
+    "content": ["Back to the Future 1", "Back to the Future 3"],
+    "expected": "Amount : 27,00 €"
+  },
+  {
+    "filename": "case3.txt",
+    "content": ["Back to the Future 1"],
+    "expected": "Amount : 15,00 €"
+  },
+  {
+    "filename": "case4.txt",
+    "content": ["Back to the Future 1", "Back to the Future 2", "Back to the Future 3", "Back to the Future 2"],
+    "expected": "Amount : 48,00 €"
+  },
+  {
+    "filename": "case5.txt",
+    "content": ["Back to the Future 1", "Back to the Future 2", "Back to the Future 3", "La chèvre"],
+    "expected": "Amount : 56,00 €"
+  }
+]
